@@ -60,14 +60,14 @@ ul {
   transition: all 0.7s;
 }
 
-body:has(.home:target) .home::before,
+/* body:has(.home:target) .home::before,
 body:has(.about:target) .about::before,
 body:has(.services:target) .services::before,
 body:has(.work:target) .work::before,
 body:has(.blog:target) .blog::before,
 body:has(.contact:target) .contact::before {
   width: 2.5rem !important;
-}
+} */
 
 #Eissa .nav-list a:hover::before {
   width: 2.5rem;
